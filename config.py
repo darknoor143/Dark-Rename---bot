@@ -2,22 +2,22 @@ import os, time
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
+    API_ID    = os.environ.get("API_ID", "24243546")
     API_HASH  = os.environ.get("API_HASH", "")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","rename")     
+    DB_NAME = os.environ.get("DB_NAME","Cluster0")     
     DB_URL  = os.environ.get("DB_URL","")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN = int(os.environ.get("ADMIN", ""))
+    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/29a3acbbab9de5f45a5fe.jpg")
+    ADMIN = int(os.environ.get("ADMIN", "1729311491"))
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002651801283") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002701581374"))
     
 
     # wes response configuration     
@@ -39,7 +39,7 @@ class Txt(object):
 
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-<b>Bot Is Made By :</b> @PandaWep"""
+<b>Bot Is Made By :</b> @darknoor04"""
 #ʀᴀᴘᴏ ᴄʀᴇᴀᴛᴏʀ https://github.com/AshutoshGoswami24
 #ʀᴀᴘᴏ https://github.com/AshutoshGoswami24/Rename-Bot
     ABOUT_TXT = """
@@ -76,7 +76,7 @@ class Txt(object):
 
 ➪ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].           
 
-𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/AshutoshGoswami24>Developer</a>
+𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/darknoor04>Developer</a>
 """
 
     PROGRESS_BAR = """<b>\n
@@ -85,7 +85,7 @@ class Txt(object):
 ┣⪼ ⏳️ Dᴏɴᴇ : {0}%
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
 ┣⪼ ⏰️ Eᴛᴀ: {4}
-┣⪼ 🥺 joine Plz: @PandaWep
+┣⪼ 🥺 joine Plz: @darknoor04
 ╰━━━━━━━━━━━━━━━➣ </b>"""
 #ʀᴀᴘᴏ ᴄʀᴇᴀᴛᴏʀ https://github.com/AshutoshGoswami24
 #ʀᴀᴘᴏ https://github.com/AshutoshGoswami24/Rename-Bot
@@ -94,7 +94,7 @@ class Txt(object):
 
 𝐈𝐟 𝐘𝐨𝐮 𝐋𝐢𝐤𝐞 𝐌𝐲 𝐁𝐨𝐭𝐬 & 𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬, 𝐘𝐨𝐮 𝐂𝐚𝐧 🎁 𝐃𝐨𝐧𝐚𝐭𝐞 𝐌𝐞 𝐀𝐧𝐲 𝐀𝐦𝐨𝐮𝐧𝐭 𝐅𝐫𝐨𝐦 𝟏𝟎𝐌 𝐑𝐬 😁 𝐔𝐩𝐭𝐨 𝐘𝐨𝐮𝐫 𝐂𝐡𝐨𝐢𝐜𝐞.
 
-<b>🛍 𝗨𝗣𝗜 𝗜𝗗:</b> `PandaWep@ybl`
+<b>🛍 𝗨𝗣𝗜 𝗜𝗗:</b> `darknoor004@ybl`
 """
 
 #ʀᴀᴘᴏ ᴄʀᴇᴀᴛᴏʀ https://github.com/AshutoshGoswami24
