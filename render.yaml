@@ -3,7 +3,7 @@ services:
     plan: free
     name: Rename Bot
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
     startCommand: python3 AshuXBot.py
     repo: https://github.com/AshutoshGoswami24/Rename-Bot
     branch: main
